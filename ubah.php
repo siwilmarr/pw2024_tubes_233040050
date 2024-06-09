@@ -46,7 +46,7 @@ if (isset($_POST["submit"])) {
 <body style="background-color:#2a2a2a;">
     <div class="container">
         <div class="row justify-content-center mt-5">
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 30rem;">
                 <div class="card-body">
                     <h5 class="card-title text-center">Edit data</h5>
                     <form action="" method="POST" enctype="multipart/form-data">
@@ -69,7 +69,7 @@ if (isset($_POST["submit"])) {
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Detail Product</label>
-                            <textarea name="tdetail" id="" cols="44" rows="5" placeholder="Masukkan Detail Produk"> <?= $pdk["detail"]; ?>
+                            <textarea name="tdetail" id="" cols="55" rows="5" placeholder="Masukkan Detail Produk"> <?= $pdk["detail"]; ?>
                         </textarea>
                         </div>
                         <div class="mb-3">
